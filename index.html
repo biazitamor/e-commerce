@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,26 +9,89 @@
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins&display=swap"
+    rel="stylesheet" />
   <title>e-commerce</title>
 </head>
 
 <body>
   <header class="header container-center">
-    <div class="logo-wrapper">
-      <a class='logo' href="/">
-        <h1 class="logo-title">Roux</h1>
-        <h2 class="logo-sub-title">Building awesome sites</h2>
-    </a>
-    <span class="welcome">Bem vindo, fulano de tal</span>
-    </div>
-    <div class="button-header-wrapper">
-      <button class="button button--purple">Cadastrar produto</button>
-      <button class="button button--red">Sair</button>
-    </div>
-  
-  
+    <section class="container-top-bar">
+      <div class="logo-wrapper">
+        <a class='logo' href="/">
+          <h3 class="logo-title">Roux</h3>
+          <h3 class="logo-sub-title">Building awesome sites</h3>
+        </a>
+        <span class="welcome">Bem vindo, fulano de tal</span>
+      </div>
+      <div class="button-header-wrapper">
+        <button class="button button--purple">Cadastrar produto</button>
+        <button class="button button--red">Sair</button>
+      </div>
+    </section>
+
+    <section class="container-search">
+      <h1 class="store-title">Minha loja</h1>
+      <form class="search-box">
+        <input class="text-field text-field--search" placeholder="O que deseja buscar?" />
+        <button class="button searche-button button--small">Pesquisar</button>
+      </form>
+    </section>
   </header>
+  <section class="container-produtct-list">
+    <ul class="product-list">
+      <li class="product">
+        <figure>
+          <img class="image" src="./images/logo.svg" />
+        </figure>
+        <div class="price-box">
+          <h3 class="product-name">Logo - Mascote</h3>
+          <strong class="product-price"> Preço: R$ 120,00</strong>
+        </div>
+        <div class="button-box">
+          <button class="button button--small"> Comprar</button>
+          <button class="button button--small"> Vender</button>
+
+      <li class="product">
+        <figure>
+          <img class="image" src="./images/logo.svg" />
+        </figure>
+        <div class="price-box">
+          <h3 class="product-name">Logo - Mascote</h3>
+          <strong class="product-price"> Preço: R$ 120,00</strong>
+        </div>
+        <div class="button-box">
+          <button class="button button--small"> Comprar</button>
+          <button class="button button--small"> Vender</button>
+</div>
+      <li class="product">
+        <figure>
+          <img class="image" src="./images/logo.svg" />
+        </figure>
+        <div class="price-box">
+          <h3 class="product-name">Logo - Mascote</h3>
+          <strong class="product-price"> Preço: R$ 120,00</strong>
+        </div>
+        <div class="button-box">
+          <button class="button button--small"> Comprar</button>
+          <button class="button button--small"> Vender</button>
+        </div>
+      <li class="product">
+        <figure>
+          <img class="image" src="./images/logo.svg" />
+        </figure>
+        <div class="price-box">
+          <h3 class="product-name">Logo - Mascote</h3>
+          <strong class="product-price">Preço: R$ 120,00</strong>
+        </div>
+        <div class="button-box">
+          <button class="button button--small"> Comprar</button>
+          <button class="button button--small"> Vender</button>
+        </div>
+      </li>
+    </ul>
+  </section>
+
 </body>
 
 </html>

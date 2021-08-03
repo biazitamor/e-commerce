@@ -1,8 +1,7 @@
 body{
   background-color: #302D47;
   font-family: "Poppins", sans-serif;
-
-  }
+    }
 
   .container-center{
     max-width: 1366px;
@@ -26,13 +25,16 @@ body{
 .welcome{
   color: #bfbfbf;
   font-size: 20px;
+  margin-left: 45px;
+
 }
 
 .header{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  flex-direction: column;
+  padding: 22px 15px 0px 15px;
+  margin-bottom: 43px;
+  }
 
 
 
@@ -48,6 +50,14 @@ body{
   border-radius: 7px;
   cursor: pointer;
   transition-duration: 300ms;
+  border: none;
+}
+
+.container-top-bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 107px;
 }
 
 .button--purple:hover{ 
@@ -78,5 +88,96 @@ body{
 .logo-wrapper{
   display: flex;
   align-items: center;
-
 }
+
+
+.store-title{
+  color: white;
+  font-size: 32px;
+}
+
+.button--small{
+  font-size: 14px;
+  height: 50px;
+  }
+
+  .button--small:hover{
+    background-color: transparent;
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+  }
+
+  .text-field{
+    height: 50px;
+    width: 375px;
+    background-color: #3F3D56;
+    border-radius: 7px;
+    border: none;
+    padding-left: 22px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    transition-duration: 300ms;
+  }
+
+  .text-field::placeholder{
+    color:#8d8ba4 ;
+  }
+
+  .text-field:focus{
+    border: 1px solid #6C63FF;
+  }
+
+  .container-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 59px;
+  }
+
+  .search-box{
+    display: flex;
+  }
+
+  .text-field--search{
+    margin-right: 19px;
+  }
+
+  .button-box{
+    display: flex;
+  }
+
+  .product{
+    background-color:#bfbfbf2E;
+    width: fit-content;
+    margin: 27px 31px;
+    padding: 26px 19px;
+    border-radius: 16px;
+        }
+
+    .product-list{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .product-name{
+      color: #BFBFBF;
+      font-size: 20px; 
+      margin-top: 22.2px;
+      margin-bottom: 17px;
+
+    }
+
+    .product-price{
+      color: #BFBFBF;
+      font-size: 20px; 
+      margin-bottom: 29px;
+    }
+
+    .button-box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;   
+    }
